@@ -83,8 +83,6 @@ function genera(posts,container){
         const postsItem = posts[i];
         console.log(postsItem);
 
-        postsItem.innerHTML = '';
-    }
 
 
 container.innerHTML += `
@@ -120,5 +118,6 @@ container.innerHTML += `
 </div>
 
 `
+    }
 
 };
