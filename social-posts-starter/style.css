@@ -64,7 +64,9 @@ h1 {
 
 .profile-pic {
     border-radius: 50%;
-    max-width: 60px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
 .profile-pic-default {
@@ -114,8 +116,6 @@ h1 {
 .like-button:not(.like-button--liked):hover {
     background-color: #e3e3e3
 }
-
-.like-button__icon { }
 
 .like-button__label {
     font-weight: bold;
